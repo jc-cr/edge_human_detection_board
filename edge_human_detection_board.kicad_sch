@@ -4,2101 +4,361 @@
 	(generator_version "8.0")
 	(uuid "f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353")
 	(paper "A4")
-	(lib_symbols
-		(symbol "00_project_parts:SATEL-VL53L8A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SATEL-VL53L8A_0_0"
-				(pin unspecified line
-					(at -13.97 -2.54 90)
-					(length 2.54)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -2.54 90)
-					(length 2.54)
-					(name "CORE_1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -2.54 90)
-					(length 2.54)
-					(name "DUT_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -2.54 90)
-					(length 2.54)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -2.54 90)
-					(length 2.54)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 -2.54 90)
-					(length 2.54)
-					(name "I2C_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -11.43 -2.54 90)
-					(length 2.54)
-					(name "IOVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 -2.54 90)
-					(length 2.54)
-					(name "LPn"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -2.54 90)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 11.43 -2.54 90)
-					(length 2.54)
-					(name "NCS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -2.54 90)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 -2.54 90)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SATEL-VL53L8A_1_1"
-				(rectangle
-					(start -17.78 12.7)
-					(end 17.78 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "00_project_parts:TXB0108PWR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TXB0108PWR"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOP65P640X120-20N"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.2"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TXB0108PWR"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0108PWR?qs=oFXvjAmG9EgEUWGWzOVFCA%3D%3D"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TXB0108PWR"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TXB0108PWR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -25.4)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -22.86 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -20.32 180)
-					(length 5.08)
-					(name "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -17.78 180)
-					(length 5.08)
-					(name "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -15.24 180)
-					(length 5.08)
-					(name "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -12.7 180)
-					(length 5.08)
-					(name "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -10.16 180)
-					(length 5.08)
-					(name "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "VCCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "00_project_parts:coral_micro_board"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -13.97 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -13.97 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -13.97 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -13.97 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -13.97 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "coral_micro_board_0_0"
-				(pin output line
-					(at -13.97 15.24 0)
-					(length 2.54)
-					(name "1.8V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 15.24 180)
-					(length 2.54)
-					(name "1.8V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 12.7 180)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 12.7 0)
-					(length 2.54)
-					(name "ADC1_CH0A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 10.16 0)
-					(length 2.54)
-					(name "ADC1_CH0B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 0 180)
-					(length 2.54)
-					(name "DAC_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 17.78 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 17.78 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 -5.08 180)
-					(length 2.54)
-					(name "I2C1_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 -7.62 180)
-					(length 2.54)
-					(name "I2C1_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 -5.08 0)
-					(length 2.54)
-					(name "I2C6_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 13.97 -2.54 180)
-					(length 2.54)
-					(name "I2C6_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 -2.54 0)
-					(length 2.54)
-					(name "PWM_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 10.16 180)
-					(length 2.54)
-					(name "SPI6_CS0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 7.62 180)
-					(length 2.54)
-					(name "SPI6_SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 2.54 180)
-					(length 2.54)
-					(name "SPI6_SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 5.08 180)
-					(length 2.54)
-					(name "SPI6_SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 2.54 0)
-					(length 2.54)
-					(name "UART6_CTX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 0 0)
-					(length 2.54)
-					(name "UART6_RTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 5.08 0)
-					(length 2.54)
-					(name "UART6_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -13.97 7.62 0)
-					(length 2.54)
-					(name "UART6_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -13.97 -7.62 0)
-					(length 2.54)
-					(name "VSYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "coral_micro_board_1_1"
-				(rectangle
-					(start -11.43 20.32)
-					(end 11.43 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "LED:WS2812B"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+	(title_block
+		(title "EDGE HUMAN DETECTION BOARD")
+		(rev "0.0.0")
 	)
-	(symbol
-		(lib_id "00_project_parts:TXB0108PWR")
-		(at 105.41 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00cdf506-8bef-40b5-8c0a-2f0181407310")
+	)
+	(wire
+		(pts
+			(xy 97.79 77.47) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573e58e4-801f-4898-a4bf-9ac022854f61")
+	)
+	(wire
+		(pts
+			(xy 97.79 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676ede3a-a92e-48c1-bfbe-ad9fb6bb74e8")
+	)
+	(wire
+		(pts
+			(xy 147.32 68.58) (xy 173.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef817fe-096a-46b3-add9-a32d2e30c44e")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f592307-2aa7-4bfb-92e7-a6df58b14657")
+	)
+	(wire
+		(pts
+			(xy 147.32 73.66) (xy 173.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982a3a72-c7f5-4950-bc45-6a8c5d275179")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab545ca-6ad7-40be-b8ae-e890bacd99e2")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46e7be8-ae92-47dc-8a9c-006bfc05c289")
+	)
+	(sheet
+		(at 82.55 66.04)
+		(size 15.24 24.13)
 		(fields_autoplaced yes)
-		(uuid "15728e10-a2f6-4ad1-8672-7812cf418e27")
-		(property "Reference" "IC1"
-			(at 91.44 20.32 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "381303fc-36c2-4b05-8887-9e7cf2e23d0c")
+		(property "Sheetname" "RGB Signalling"
+			(at 82.55 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "TXB0108PWR"
-			(at 91.44 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP65P640X120-20N"
-			(at 81.28 -45.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
-			(at 81.28 -145.39 0)
+		(property "Sheetfile" "rgb_signalling.kicad_sch"
+			(at 82.55 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect"
-			(at 105.41 49.53 0)
+		(pin "+5VDC" input
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
+			(uuid "b06e8982-c193-47ca-88ee-e9b2713cc27c")
 		)
-		(property "Height" "1.2"
-			(at 81.28 -345.39 0)
+		(pin "PWM_0" input
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
+				(justify right)
 			)
+			(uuid "2c2d4b85-6dce-4de0-8e83-717eac61219b")
 		)
-		(property "Mouser Part Number" "595-TXB0108PWR"
-			(at 81.28 -445.39 0)
+		(pin "+1.8VDC" input
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
+				(justify right)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0108PWR?qs=oFXvjAmG9EgEUWGWzOVFCA%3D%3D"
-			(at 81.28 -545.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 81.28 -645.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TXB0108PWR"
-			(at 81.28 -745.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "664c984e-c332-4b5d-8e27-4948375836db")
-		)
-		(pin "5"
-			(uuid "89d42fcc-5cbb-415a-a30d-977d006c7bea")
-		)
-		(pin "20"
-			(uuid "b2082aca-19fa-4686-879b-11db28f49a89")
-		)
-		(pin "8"
-			(uuid "cabed727-4215-4e0e-9a88-a0b45a1af6c5")
-		)
-		(pin "9"
-			(uuid "07c71069-fef0-4834-bb3c-39623611cb32")
-		)
-		(pin "7"
-			(uuid "f481a6df-29f2-4f9f-adac-9436a4062708")
-		)
-		(pin "15"
-			(uuid "f3440166-01e4-43aa-8c0c-61b661e35648")
-		)
-		(pin "14"
-			(uuid "f4733ee3-f976-479c-825c-e2c98ca9b275")
-		)
-		(pin "13"
-			(uuid "0a976705-0bb3-47de-9ecd-9fef936873f8")
-		)
-		(pin "12"
-			(uuid "43074393-6fa7-4e1f-befd-442a8eed2982")
-		)
-		(pin "11"
-			(uuid "e21add1f-06e4-41fa-ae17-b559c9916af3")
-		)
-		(pin "10"
-			(uuid "a8d232d2-896f-4f07-bbf6-dcfa2f69efdd")
-		)
-		(pin "1"
-			(uuid "70611e65-80f8-472d-8be7-0131c4eae538")
-		)
-		(pin "17"
-			(uuid "266843ff-05bd-48e4-bd88-90014c463607")
-		)
-		(pin "3"
-			(uuid "c95db1f4-6574-4e96-b840-e6fa9718898c")
-		)
-		(pin "4"
-			(uuid "c0e41197-6ab6-42fe-a283-3f0a5158c6b6")
-		)
-		(pin "2"
-			(uuid "c03a1f84-1b54-48fc-ac8d-378477a34f93")
-		)
-		(pin "16"
-			(uuid "b2c1c79b-90d9-4f77-8a9c-124373d0bea6")
-		)
-		(pin "18"
-			(uuid "5477b4af-993c-4e20-910c-fcdba959d672")
-		)
-		(pin "19"
-			(uuid "8349c41e-9250-479b-b927-b1c9248ca902")
+			(uuid "e895d403-dd5d-40f7-9178-c4b3f2ca33e6")
 		)
 		(instances
-			(project ""
+			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353"
-					(reference "IC1")
-					(unit 1)
+					(page "3")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "00_project_parts:coral_micro_board")
-		(at 158.75 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 119.38 64.77)
+		(size 27.94 27.94)
 		(fields_autoplaced yes)
-		(uuid "178ae57f-5dfe-4fc2-8ca6-624761294acd")
-		(property "Reference" "U1"
-			(at 158.75 77.47 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72abfcf8-e097-478e-98cf-ce55e9cba7c4")
+		(property "Sheetname" "Coral Micro Breakouts"
+			(at 119.38 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 158.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "17b9c4a6-11bf-49a0-a665-a5094e49ac04")
-		)
-		(pin ""
-			(uuid "443834ca-3916-4358-8a77-0a38db3ff6c2")
-		)
-		(pin ""
-			(uuid "21500efc-e814-404a-8f93-8fbc4006a786")
-		)
-		(pin ""
-			(uuid "0d1408b0-d191-45f5-adbf-4c9c622885f8")
-		)
-		(pin ""
-			(uuid "992a82ca-3f67-45dc-9ed7-508dec3969ec")
-		)
-		(pin ""
-			(uuid "252d3e17-56a7-4f58-b102-9abb4783cf7d")
-		)
-		(pin ""
-			(uuid "a9bf509b-b7a5-4728-8c27-d6de12cc8d95")
-		)
-		(pin ""
-			(uuid "2edff5de-72aa-4b0f-aca5-04c9fd68b33d")
-		)
-		(pin ""
-			(uuid "c6b4d919-71cc-453c-a028-5d15a495717d")
-		)
-		(pin ""
-			(uuid "6fcf60b2-72b1-467c-93db-647184c63866")
-		)
-		(pin ""
-			(uuid "cf62c5aa-5287-4b7f-96de-cbbf510a97a9")
-		)
-		(pin ""
-			(uuid "6464248c-0249-4e1e-8977-1ac8654e4a4c")
-		)
-		(pin ""
-			(uuid "1d204e48-605a-4996-9240-0e9f632fed51")
-		)
-		(pin ""
-			(uuid "77390c93-1cb8-48e0-9948-dd9bfc77a1e2")
-		)
-		(pin ""
-			(uuid "3b25dabb-816c-47ee-87a2-ad130f0a9928")
-		)
-		(pin ""
-			(uuid "a58321e8-573c-4c06-bc97-64a033b8e5dd")
-		)
-		(pin ""
-			(uuid "40db9eb1-6c9d-4bd5-a24c-9b2f9fdb92e3")
-		)
-		(pin ""
-			(uuid "88c612bf-d54b-4c57-81dd-87e0dfc663f7")
-		)
-		(pin ""
-			(uuid "72f414cd-9bac-4a93-87da-1d6a04484ecb")
-		)
-		(pin ""
-			(uuid "915ee5d5-d909-461d-b98e-09cdfa003cf1")
-		)
-		(pin ""
-			(uuid "d2a5ea5a-27e9-4831-a00f-195380721212")
-		)
-		(pin ""
-			(uuid "967d1192-beb0-4f04-968f-42e945bdad1a")
-		)
-		(instances
-			(project ""
-				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 48.26 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53c80f13-1f19-4656-b404-165003705170")
-		(property "Reference" "D1"
-			(at 59.69 105.4414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 59.69 107.9814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 49.53 119.38 0)
+		(property "Sheetfile" "coral_micro_breakout.kicad_sch"
+			(at 119.38 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 50.8 121.285 0)
+		(pin "+3.3VDC" output
+			(at 147.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
+				(justify right)
 			)
+			(uuid "77f3194e-6ef7-4c31-ac77-7949b5aba1c5")
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 48.26 111.76 0)
+		(pin "SCL" output
+			(at 147.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
+			(uuid "75ca7258-b41d-4346-bb24-c37afc19e995")
 		)
-		(pin "3"
-			(uuid "8702c860-0629-470c-96cf-ec8780836c7e")
-		)
-		(pin "2"
-			(uuid "775a9875-2a58-4993-a70a-21d354b437ef")
-		)
-		(pin "1"
-			(uuid "5c91d482-225a-440e-8d00-916711ac60eb")
-		)
-		(pin "4"
-			(uuid "5fbab0de-b69c-4566-a018-23801736ab35")
-		)
-		(instances
-			(project ""
-				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353"
-					(reference "D1")
-					(unit 1)
+		(pin "SDA" output
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify right)
 			)
+			(uuid "636caa10-766f-4c77-996e-e8ae89b67852")
 		)
-	)
-	(symbol
-		(lib_id "00_project_parts:SATEL-VL53L8A")
-		(at 254 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4256b53-0b85-477c-b096-b374b31ccf58")
-		(property "Reference" "U2"
-			(at 273.05 31.1149 0)
+		(pin "+5VDC" output
+			(at 119.38 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "3970d4c5-959f-4086-a663-f516b339a5d2")
 		)
-		(property "Value" "~"
-			(at 273.05 33.02 0)
+		(pin "+1.8VDC_TOF" output
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ca32843-12b2-4167-b3ae-4158134e496c")
+		)
+		(pin "PWM_1" output
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "27029a87-c0b1-490f-b5e6-23c6ca581e58")
+		)
+		(pin "PWM_0" output
+			(at 119.38 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "d7d132c5-5999-478c-9572-39969c269be7")
 		)
-		(property "Footprint" ""
-			(at 237.49 33.02 0)
+		(pin "+1.8VDC_RGB" output
+			(at 119.38 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "f04c8c17-4089-444c-b94b-1eec8e67ac83")
-		)
-		(pin ""
-			(uuid "9463d4b6-85dd-4f01-96fa-db6da367a53e")
-		)
-		(pin ""
-			(uuid "01da2cef-f226-40da-82db-b4adbdf7496a")
-		)
-		(pin ""
-			(uuid "f2246a96-c287-4775-9934-a67040b4301e")
-		)
-		(pin ""
-			(uuid "9b981f6e-dabd-4818-a344-5f8d0a591a56")
-		)
-		(pin ""
-			(uuid "32d5a70b-4aca-433a-a833-f860fd0bd21b")
-		)
-		(pin ""
-			(uuid "b9b76425-ad32-4bf2-8dd0-f4f88537b01e")
-		)
-		(pin ""
-			(uuid "67bfed1a-c121-4c70-b4f1-1c634dc887a1")
-		)
-		(pin ""
-			(uuid "d77f21d9-9081-4a50-b78b-152c6c8fad56")
-		)
-		(pin ""
-			(uuid "ab0ae848-0f5e-4a33-beeb-d2c5b78103f4")
-		)
-		(pin ""
-			(uuid "35298e18-b384-4826-b418-657cb198a4ad")
-		)
-		(pin ""
-			(uuid "c78042ef-dc9a-462e-ba1b-517bde7eb1ee")
-		)
-		(instances
-			(project ""
-				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 48.26 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c59b2423-ba4b-4c8e-ba9b-046ff0c766eb")
-		(property "Reference" "D2"
-			(at 59.69 82.5814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 59.69 85.1214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 49.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 50.8 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 48.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "62323546-4a5b-4192-b7a4-87dd99e4edc7")
-		)
-		(pin "2"
-			(uuid "65bf7ed8-ac3a-427e-8ac4-c2ac66ea505d")
-		)
-		(pin "1"
-			(uuid "f3f19892-910e-4ab3-beab-277f30c93e43")
-		)
-		(pin "4"
-			(uuid "264009c8-5705-43c8-a552-8861842f6035")
+			(uuid "adac3925-7d95-41f5-b069-a078d1604fec")
 		)
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353"
-					(reference "D2")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 48.26 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 173.99 66.04)
+		(size 16.51 25.4)
 		(fields_autoplaced yes)
-		(uuid "d953bb15-d2d1-49c7-b832-2df2765f010e")
-		(property "Reference" "D3"
-			(at 59.69 59.7214 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74857e1b-d607-48d9-8b82-96dfc41384b6")
+		(property "Sheetname" "TOF Sensor"
+			(at 173.99 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 59.69 62.2614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 49.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 50.8 75.565 0)
+		(property "Sheetfile" "tof_sensorkicad_sch.kicad_sch"
+			(at 173.99 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 48.26 66.04 0)
+		(pin "PWM_1" input
+			(at 173.99 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+			(uuid "a08a5b6a-16e2-455b-a881-af5d67c67490")
 		)
-		(pin "3"
-			(uuid "2a58069c-e910-4b85-aa16-37637c6a24eb")
+		(pin "+1.8VDC" input
+			(at 173.99 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd2ef5a3-2c10-4556-8a8f-5b87636cfd9d")
 		)
-		(pin "2"
-			(uuid "5188ca94-6efc-4865-b74b-04e8aa9aeadc")
+		(pin "SDA" input
+			(at 173.99 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd1d8abb-3e13-4e07-9f98-d0c024240aae")
 		)
-		(pin "1"
-			(uuid "25c39519-9a9f-4ad3-9aea-e92f01722662")
+		(pin "+3.3VDC" input
+			(at 173.99 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "beb5d395-cb6d-4e90-b35c-1e6dbbf26aa8")
 		)
-		(pin "4"
-			(uuid "1c96faa9-4ec0-4f9f-b483-4a03194bbbf6")
+		(pin "SCL" input
+			(at 173.99 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ceb197be-4810-4d5a-a5de-ca0e963aa490")
 		)
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353"
-					(reference "D3")
-					(unit 1)
+					(page "4")
 				)
 			)
 		)
