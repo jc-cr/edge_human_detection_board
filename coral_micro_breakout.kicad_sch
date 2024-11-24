@@ -1243,7 +1243,7 @@
 		(at 74.93 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c65322dc-f6a1-4884-be61-864ceddfb959")
+		(uuid "cccb1822-c095-47de-a75c-aa1a91d35124")
 	)
 	(no_connect
 		(at 132.08 88.9)
@@ -1315,13 +1315,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 71.12) (xy 104.14 71.12)
+			(xy 146.05 71.12) (xy 152.4 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06d81d00-ed2e-4cf0-8947-649f127522a8")
+		(uuid "03f7ad06-f087-4082-85e6-e18ae6868b6d")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa44bbe-3c6a-42cf-be13-e0f6a1263aa0")
 	)
 	(wire
 		(pts
@@ -1332,6 +1342,16 @@
 			(type default)
 		)
 		(uuid "118a61bb-25c4-4f30-93c1-37b5c85c7379")
+	)
+	(wire
+		(pts
+			(xy 68.58 36.83) (xy 74.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1827045b-53bd-421d-a4bc-e759d68b6412")
 	)
 	(wire
 		(pts
@@ -1351,7 +1371,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1ddfc803-f882-4118-93cf-f963ca92ea0b")
+		(uuid "2792c1e1-4d10-4556-bf81-b12b776e674d")
 	)
 	(wire
 		(pts
@@ -1362,6 +1382,16 @@
 			(type default)
 		)
 		(uuid "31b385d0-a4f0-4d2a-b57e-e33774189baf")
+	)
+	(wire
+		(pts
+			(xy 137.16 62.23) (xy 138.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9a48f8-f737-4453-83da-4c894c9a6d87")
 	)
 	(wire
 		(pts
@@ -1385,6 +1415,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 71.12) (xy 138.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f878449-d5b2-4ddd-aabc-15a5c22f5ec7")
+	)
+	(wire
+		(pts
 			(xy 87.63 36.83) (xy 100.33 36.83)
 		)
 		(stroke
@@ -1395,16 +1435,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 62.23) (xy 143.51 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59af0bc3-37d7-49a1-9384-f838c9f8bcc8")
-	)
-	(wire
-		(pts
 			(xy 74.93 46.99) (xy 74.93 45.72)
 		)
 		(stroke
@@ -1412,16 +1442,6 @@
 			(type default)
 		)
 		(uuid "5d176dcf-a71e-4e06-bf8b-632483d4078f")
-	)
-	(wire
-		(pts
-			(xy 57.15 36.83) (xy 74.93 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eaa7065-8383-4dff-ade7-f5bbcc346f1c")
 	)
 	(wire
 		(pts
@@ -1485,6 +1505,26 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 71.12) (xy 85.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946b8325-7351-41b6-a776-b765aa97ade4")
+	)
+	(wire
+		(pts
+			(xy 92.71 71.12) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d2bb33-0a7a-49eb-9768-53738c83f6ea")
+	)
+	(wire
+		(pts
 			(xy 78.74 86.36) (xy 72.39 86.36)
 		)
 		(stroke
@@ -1492,16 +1532,6 @@
 			(type default)
 		)
 		(uuid "96a96911-c786-4efa-8545-af511d5f888e")
-	)
-	(wire
-		(pts
-			(xy 132.08 71.12) (xy 143.51 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f98eaf5-876f-4aaf-93f6-357b34932d3c")
 	)
 	(wire
 		(pts
@@ -1575,6 +1605,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 36.83) (xy 60.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7cb6792-9179-4511-9501-d7dee7465299")
+	)
+	(wire
+		(pts
 			(xy 72.39 88.9) (xy 77.47 88.9)
 		)
 		(stroke
@@ -1603,9 +1643,31 @@
 		)
 		(uuid "fdd8883d-25d0-4503-979b-141ddadc810a")
 	)
+	(rectangle
+		(start 43.18 25.4)
+		(end 208.28 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b3f112a-a12e-4916-9ab6-37ae88949af9)
+	)
+	(text "0 Ohm R added for current testing."
+		(exclude_from_sim no)
+		(at 138.176 52.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02967fff-b7e6-4f34-8ce3-30e29d0181d3")
+	)
 	(text "5V:\nR = (5V-1.8)/(2mA)\n  = 1.5kOhm\n"
 		(exclude_from_sim no)
-		(at 59.944 46.482 0)
+		(at 62.738 53.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1615,13 +1677,23 @@
 	)
 	(text "Design note:\n\nTOF board already includes C and R.\nSo none included here.\n"
 		(exclude_from_sim no)
-		(at 166.878 75.184 0)
+		(at 185.42 66.294 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "5cdc49d0-0d40-4b58-a2b3-c415db107271")
+	)
+	(text "Coral Micro Breakout"
+		(exclude_from_sim no)
+		(at 67.056 30.988 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "87286ec9-a190-49ff-b6ea-e729f20067de")
 	)
 	(label "DEBUG_RX"
 		(at 100.33 81.28 180)
@@ -1671,7 +1743,7 @@
 	)
 	(hierarchical_label "+1.8VDC_TOF"
 		(shape output)
-		(at 143.51 62.23 0)
+		(at 152.4 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1680,7 +1752,7 @@
 		)
 		(uuid "67ebd3cf-736a-4a9c-b1e4-111d63b9ac06")
 		(property "Netclass" "+1.8VDC_SPARE"
-			(at 138.176 60.198 0)
+			(at 147.066 60.198 0)
 			(show_name yes)
 			(effects
 				(font
@@ -1730,7 +1802,7 @@
 	)
 	(hierarchical_label "+3.3VDC"
 		(shape output)
-		(at 143.51 71.12 0)
+		(at 152.4 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1959,7 +2031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55edeec8-0c50-4b88-a273-697e240b9c92")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 77.47 40.6399 0)
 			(effects
 				(font
@@ -2013,7 +2085,74 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/72abfcf8-e097-478e-98cf-ce55e9cba7c4"
-					(reference "R1")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60860a8d-8eaf-4206-a2e2-90a6dfe6d617")
+		(property "Reference" "R3"
+			(at 88.9 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 88.9 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 88.9 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ca48814-618a-4a27-9e90-5b734dc2143a")
+		)
+		(pin "2"
+			(uuid "851ed5b1-2860-4135-bd56-d8d091c900eb")
+		)
+		(instances
+			(project ""
+				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/72abfcf8-e097-478e-98cf-ce55e9cba7c4"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2288,6 +2427,208 @@
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/72abfcf8-e097-478e-98cf-ce55e9cba7c4"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 36.83 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3f95f30-68ad-40c6-afa5-cc1743f16e11")
+		(property "Reference" "R1"
+			(at 64.77 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 64.77 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eaea6a5-6987-4b64-af3a-fcd9f3625344")
+		)
+		(pin "2"
+			(uuid "bf314052-f9a7-46a3-bc12-87a5d1910af0")
+		)
+		(instances
+			(project "edge_human_detection_board"
+				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/72abfcf8-e097-478e-98cf-ce55e9cba7c4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab04503b-8b12-422e-9ca0-dd2f31e37ec5")
+		(property "Reference" "R5"
+			(at 142.24 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 142.24 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6be67cab-7af8-4990-afde-5babcf23d358")
+		)
+		(pin "2"
+			(uuid "c8eb6eca-4232-4189-acce-c6f34b06bc74")
+		)
+		(instances
+			(project "edge_human_detection_board"
+				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/72abfcf8-e097-478e-98cf-ce55e9cba7c4"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af71e904-ac07-4465-99d4-9fe8393bfe58")
+		(property "Reference" "R4"
+			(at 142.24 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 142.24 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d5587a0-eaf1-4a7a-bfa8-125fceaa03f8")
+		)
+		(pin "2"
+			(uuid "7aa43b80-3655-4f87-88df-5f30a82f01aa")
+		)
+		(instances
+			(project "edge_human_detection_board"
+				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/72abfcf8-e097-478e-98cf-ce55e9cba7c4"
+					(reference "R4")
 					(unit 1)
 				)
 			)

@@ -11,7 +11,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 97.79 71.12) (xy 119.38 71.12)
+			(xy 88.9 71.12) (xy 119.38 71.12)
 		)
 		(stroke
 			(width 0)
@@ -21,7 +21,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 77.47) (xy 119.38 77.47)
+			(xy 88.9 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -31,7 +31,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 83.82) (xy 119.38 83.82)
+			(xy 88.9 83.82) (xy 119.38 83.82)
 		)
 		(stroke
 			(width 0)
@@ -41,7 +41,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 173.99 68.58)
+			(xy 147.32 68.58) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -51,7 +51,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 173.99 78.74)
+			(xy 147.32 78.74) (xy 180.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -61,7 +61,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 173.99 73.66)
+			(xy 147.32 73.66) (xy 180.34 73.66)
 		)
 		(stroke
 			(width 0)
@@ -71,7 +71,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 173.99 88.9)
+			(xy 147.32 88.9) (xy 180.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -81,7 +81,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 173.99 83.82)
+			(xy 147.32 83.82) (xy 180.34 83.82)
 		)
 		(stroke
 			(width 0)
@@ -90,9 +90,8 @@
 		(uuid "f46e7be8-ae92-47dc-8a9c-006bfc05c289")
 	)
 	(sheet
-		(at 82.55 66.04)
+		(at 73.66 66.04)
 		(size 15.24 24.13)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -102,7 +101,7 @@
 		)
 		(uuid "381303fc-36c2-4b05-8887-9e7cf2e23d0c")
 		(property "Sheetname" "RGB Signalling"
-			(at 82.55 65.3284 0)
+			(at 73.66 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +110,7 @@
 			)
 		)
 		(property "Sheetfile" "rgb_signalling.kicad_sch"
-			(at 82.55 90.7546 0)
+			(at 65.024 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +119,7 @@
 			)
 		)
 		(pin "+5VDC" input
-			(at 97.79 71.12 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +129,7 @@
 			(uuid "b06e8982-c193-47ca-88ee-e9b2713cc27c")
 		)
 		(pin "PWM_0" input
-			(at 97.79 77.47 0)
+			(at 88.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +139,7 @@
 			(uuid "2c2d4b85-6dce-4de0-8e83-717eac61219b")
 		)
 		(pin "+1.8VDC" input
-			(at 97.79 83.82 0)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,7 +275,7 @@
 		)
 	)
 	(sheet
-		(at 173.99 66.04)
+		(at 180.34 66.04)
 		(size 16.51 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -288,7 +287,7 @@
 		)
 		(uuid "74857e1b-d607-48d9-8b82-96dfc41384b6")
 		(property "Sheetname" "TOF Sensor"
-			(at 173.99 65.3284 0)
+			(at 180.34 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +296,7 @@
 			)
 		)
 		(property "Sheetfile" "tof_sensorkicad_sch.kicad_sch"
-			(at 173.99 92.0246 0)
+			(at 180.34 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -306,7 +305,7 @@
 			)
 		)
 		(pin "PWM_1" input
-			(at 173.99 88.9 180)
+			(at 180.34 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -316,7 +315,7 @@
 			(uuid "a08a5b6a-16e2-455b-a881-af5d67c67490")
 		)
 		(pin "+1.8VDC" input
-			(at 173.99 73.66 180)
+			(at 180.34 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +325,7 @@
 			(uuid "cd2ef5a3-2c10-4556-8a8f-5b87636cfd9d")
 		)
 		(pin "SDA" input
-			(at 173.99 83.82 180)
+			(at 180.34 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +335,7 @@
 			(uuid "dd1d8abb-3e13-4e07-9f98-d0c024240aae")
 		)
 		(pin "+3.3VDC" input
-			(at 173.99 68.58 180)
+			(at 180.34 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +345,7 @@
 			(uuid "beb5d395-cb6d-4e90-b35c-1e6dbbf26aa8")
 		)
 		(pin "SCL" input
-			(at 173.99 78.74 180)
+			(at 180.34 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
