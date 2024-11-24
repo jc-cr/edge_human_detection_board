@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "board")(type "KiCad")(uri "/home/jc/Workspace/edge_human_detection_board/board.pretty")(options "")(descr ""))
+)

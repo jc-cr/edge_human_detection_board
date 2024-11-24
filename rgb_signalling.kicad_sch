@@ -1008,16 +1008,40 @@
 		(uuid "0c583cb9-0b38-413e-9f4f-12d55e6135be")
 	)
 	(no_connect
+		(at 154.94 55.88)
+		(uuid "0e80fe93-dfd6-4355-a001-e0613d8e918c")
+	)
+	(no_connect
 		(at 127 50.8)
 		(uuid "230006ca-7916-480f-91eb-e2196d8fc080")
+	)
+	(no_connect
+		(at 154.94 53.34)
+		(uuid "23cd914d-7044-4ae9-b468-5f68687af1b3")
+	)
+	(no_connect
+		(at 154.94 45.72)
+		(uuid "3757b0e2-a65f-4149-8239-6d00897f9420")
+	)
+	(no_connect
+		(at 154.94 48.26)
+		(uuid "5b5e28ff-78cd-43c3-8a7f-1194a94b5bd0")
 	)
 	(no_connect
 		(at 127 40.64)
 		(uuid "62c8f062-7fde-4266-9942-76d9fa613b5f")
 	)
 	(no_connect
+		(at 154.94 43.18)
+		(uuid "76f37034-090f-4682-b516-df02bc5a4896")
+	)
+	(no_connect
 		(at 154.94 40.64)
 		(uuid "9ef064d1-ebd2-4be8-bfda-f306b381ec32")
+	)
+	(no_connect
+		(at 154.94 50.8)
+		(uuid "d01b5ea6-384d-4f02-9c7e-f2439b4f7175")
 	)
 	(no_connect
 		(at 127 43.18)
@@ -1483,7 +1507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0875c61b-6a1a-4bd9-b698-9c52010508f3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 156.21 120.65 0)
 			(effects
 				(font
@@ -1533,7 +1557,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1541,16 +1565,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 198.12 111.76 180)
+		(at 175.26 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ccf9e30-c335-4398-bdbd-23684c558e03")
-		(property "Reference" "C4"
-			(at 201.93 110.4899 0)
+		(uuid "3275b6c4-ac32-4935-88c0-6a920551a361")
+		(property "Reference" "C3"
+			(at 179.07 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1583,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 201.93 113.0299 0)
+			(at 179.07 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,8 +1591,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 197.1548 107.95 0)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder"
+			(at 174.2948 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,7 +1601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 111.76 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1610,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 198.12 111.76 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,15 +1619,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd2e07bb-699a-4251-bd78-a8cec8d9799e")
+			(uuid "22a99b46-bf8b-469c-b779-3053890856bf")
 		)
 		(pin "2"
-			(uuid "2d107cf3-2ba9-40ae-8f9d-08e12effa211")
+			(uuid "e9eaab16-db9c-48aa-8b37-7e34ce26ce17")
 		)
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1858,7 +1882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "578f982e-9883-4892-bbef-db1b0d555989")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 179.07 139.7 0)
 			(effects
 				(font
@@ -1908,7 +1932,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR08")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1924,7 +1948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59f1a71d-c864-48f8-b692-206e411eb689")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 190.5 114.3314 0)
 			(effects
 				(font
@@ -1984,77 +2008,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 175.26 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b900f10-c5c9-44f0-b049-c49a07c162e8")
-		(property "Reference" "C3"
-			(at 179.07 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 179.07 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 174.2948 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4671a69c-b109-4958-b23d-53218bd78ba4")
-		)
-		(pin "2"
-			(uuid "9df6a2dc-8642-4307-9aba-6180e25b424e")
-		)
-		(instances
-			(project "edge_human_detection_board"
-				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "C3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2070,7 +2024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6476da61-fa3d-4891-b880-84933d10061a")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 167.64 95.2814 0)
 			(effects
 				(font
@@ -2130,7 +2084,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2146,7 +2100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "675985a6-aa98-443f-be31-81bd87acf2e0")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 198.12 124.46 0)
 			(effects
 				(font
@@ -2196,7 +2150,77 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR011")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 198.12 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc7ed46-7603-488b-826e-1c950c10255d")
+		(property "Reference" "C4"
+			(at 201.93 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 201.93 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder"
+			(at 197.1548 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7391bd7-2be2-492a-a3f0-74f5a667b5d4")
+		)
+		(pin "2"
+			(uuid "4855608d-5d37-48a5-a786-58602950a10e")
+		)
+		(instances
+			(project "edge_human_detection_board"
+				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f37559f-ee35-462d-b7c6-b308d53e4de8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 118.11 46.99 0)
 			(effects
 				(font
@@ -2262,7 +2286,7 @@
 		(instances
 			(project ""
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2278,7 +2302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ee89421-b5e6-4202-8f28-b6f567b41f67")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 130.81 106.68 0)
 			(effects
 				(font
@@ -2328,7 +2352,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2344,7 +2368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc11158b-0ffa-467a-954a-4f4285128a1a")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 142.24 81.3114 0)
 			(effects
 				(font
@@ -2404,7 +2428,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2438,7 +2462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder"
 			(at 148.8948 73.66 0)
 			(effects
 				(font
@@ -2490,7 +2514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e83ab71c-439a-4ded-8347-61746e8f55b8")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -2540,7 +2564,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

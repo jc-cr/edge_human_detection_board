@@ -179,7 +179,6 @@
       ],
       "track_widths": [
         0.0,
-        0.0,
         0.1524,
         0.508
       ],
@@ -215,7 +214,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5842,
+          "diameter": 0.5334,
           "drill": 0.3302
         }
       ],
@@ -447,7 +446,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "00_parts_lib"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {

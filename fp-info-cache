@@ -1,4 +1,11 @@
-24198351347606114
+24201816180648685
+00_parts_lib
+SATEL-VL53L8A
+
+
+0
+12
+12
 00_parts_lib
 SOP65P640X120-20N
 PW0020A
@@ -6,6 +13,13 @@ Integrated Circuit
 0
 20
 20
+00_parts_lib
+coral_micro_board_mating
+
+
+0
+24
+24
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

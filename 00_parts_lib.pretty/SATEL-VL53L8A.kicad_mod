@@ -1,0 +1,249 @@
+(footprint "SATEL-VL53L8A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 14.35 12.77 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "39b8fda3-9ae2-4fe0-a414-e792dd74d58b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SATEL-VL53L8A"
+		(at 0.2 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f374efb0-4020-41b8-babc-4b9045fb98d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.25 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eeedbd03-8a64-427a-b292-306a261629e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.25 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09c26d03-b319-4cf9-a79a-c391cda23a28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.25 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dccff4fa-ca1a-497f-99ee-5efe6e76d50c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9.8 -4.5)
+		(end 9.65 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "971624d0-7c86-47b9-b3b2-ab129140aa26")
+	)
+	(fp_rect
+		(start -2.9 -0.7)
+		(end 3.4 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "75804ff6-6a78-4977-bdff-4b2c5a53e393")
+	)
+	(fp_text_box "Mating pads for the SATEL-VL53L8 board. The front silk corresponds to the front of the board, but the actual soldered pads will be for the back of the board. To ensure pads align we create this footprint on the front copper layer since the board will be soldered on front of our dev board."
+		(start 27.5 -26.3)
+		(end 49.3 -3)
+		(layer "Cmts.User")
+		(uuid "9af8e8f7-b147-4d6d-ac36-22b79e2f45ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "7b47d383-dba8-40ac-8c2c-b10f0f8c840b")
+		(pts
+			(xy 9.65 -4.5) (xy 9.65 6.5)
+		)
+		(height -2.25)
+		(gr_text "11.0000 mm"
+			(at 10.75 1 90)
+			(layer "Cmts.User")
+			(uuid "7b47d383-dba8-40ac-8c2c-b10f0f8c840b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "9f824ba5-fe0c-4250-8bbb-9aa138f4eaf3")
+		(pts
+			(xy -9.76 10.63) (xy 9.69 10.63)
+		)
+		(height 2.7)
+		(gr_text "19.4500 mm"
+			(at -0.035 12.18 0)
+			(layer "Cmts.User")
+			(uuid "9f824ba5-fe0c-4250-8bbb-9aa138f4eaf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(pad "1" smd oval
+		(at -7.95 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "5aa64967-e575-4ff6-b5a0-d09c855762a7")
+	)
+	(pad "2" smd oval
+		(at -6.42 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "1f00e2e5-000c-4d93-9af5-7393300310fc")
+	)
+	(pad "3" smd oval
+		(at -4.89 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "02ac4d14-2025-4d32-9d39-ce056b4245c6")
+	)
+	(pad "4" smd oval
+		(at -3.36 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "f83edd68-24aa-472d-a136-9939281495e0")
+	)
+	(pad "5" smd oval
+		(at -1.83 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "1ddafce0-de0e-4f30-ad45-2825f0f005ab")
+	)
+	(pad "6" smd oval
+		(at -0.3 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "c69ee047-d40f-47ad-ae86-6f68a863c833")
+	)
+	(pad "7" smd oval
+		(at 1.23 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "6ede2417-b034-4cdc-a82c-73106fc2366e")
+	)
+	(pad "8" smd oval
+		(at 2.76 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "49302a1e-b7f8-4b79-bfd4-8c4ab675b30b")
+	)
+	(pad "9" smd oval
+		(at 4.29 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "0f416359-08a3-432f-a800-e5789fe9a097")
+	)
+	(pad "10" smd oval
+		(at 5.82 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "eab7b5aa-7837-4abb-b0ac-2e23ba2218ae")
+	)
+	(pad "11" smd oval
+		(at 7.35 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "e4f3e7aa-3d95-43ac-bde9-c5cfc20b475c")
+	)
+	(pad "12" smd oval
+		(at 8.88 -4.2 90)
+		(size 2.6 0.7)
+		(layers "F.Cu" "F.Paste")
+		(uuid "ca6df1ce-5a2f-4ad0-b481-fee834182eb2")
+	)
+)
