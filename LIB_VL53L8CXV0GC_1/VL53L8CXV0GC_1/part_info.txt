@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=VL53L8CXV0GC/1
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=18
+Version=2.1
+Released=2023-01-13 06:25:38
+Downloaded=2024-12-28 05:57:52
+3D=Y

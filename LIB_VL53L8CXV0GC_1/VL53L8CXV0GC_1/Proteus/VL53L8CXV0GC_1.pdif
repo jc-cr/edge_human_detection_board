@@ -1,0 +1,238 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "VL53L8CXV0GC_1"
+   (description "Low-power high-performance 8x8 multizone Time-of-Flight sensor 940 nm, 6.4x3.0x1.75 mm, -30 to 85C")
+   (family "ANA")
+   (package "VL53L8CXV0GC1")
+   (attribute "Datasheet Link" "https://www.st.com/resource/en/datasheet/vl53l8cx.pdf")
+   (attribute "Geometry.Height" "1.8mm")
+   (attribute "Mouser Part Number" "511-VL53L8CXV0GC/1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L8CXV0GC-1?qs=T%252BzbugeAwjhc9idkQC%252BF8g%3D%3D")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "VL53L8CXV0GC/1")
+   (gate
+    (symbol "VL53L8CXV0GC_1")
+    (pin "INT_1" 1 PS)
+    (pin "INT_2" A1 PS)
+    (pin "XSHUT" A2 PS)
+    (pin "IOVDD" A3 PS)
+    (pin "MOSI" A4 PS)
+    (pin "MCLK" A5 PS)
+    (pin "SWD_IO" A6 PS)
+    (pin "SWD_CLK" A7 PS)
+    (pin "SYNC" B1 PS)
+    (pin "GND_1" B4 PS)
+    (pin "CORE_1V8" B7 PS)
+    (pin "SPI_I2C_N" C1 PS)
+    (pin "NCS" C2 PS)
+    (pin "GND_2" C3 PS)
+    (pin "VDD" C4 PS)
+    (pin "MISO" C5 PS)
+    (pin "ATEST1" C6 PS)
+    (pin "GND_3" C7 PS)
+   )
+  )
+  (symbol "VL53L8CXV0GC_1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -900) (pt 200 -900) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -800) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -800) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "VL53L8CXV0GC1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.515 -3.2)
+      (pt 1.515 -3.2)
+      (pt 1.515 3.2)
+      (pt -1.515 3.2)
+      (pt -1.515 -3.2))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.515 4.2)
+      (pt 2.515 4.2)
+      (pt 2.515 -4.2)
+      (pt -2.515 -4.2)
+      (pt -2.515 4.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.515 2.8)
+      (pt -1.515 3.2)
+      (pt -0.6 3.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.6 3.2)
+      (pt 1.515 3.2)
+      (pt 1.515 2.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.515 -2.8)
+      (pt -1.515 -3.2)
+      (pt -0.6 -3.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.515 -2.8)
+      (pt 1.515 -3.2)
+      (pt 0.6 -3.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.1 -2.25)
+      (arc (pt -2.100 -2.250) (pt -2.100 -2.300) (pt -2.000 -2.200) (start 180.0) (sweep 180.0))
+      (pt -2 -2.25)
+      (arc (pt -2.000 -2.250) (pt -2.100 -2.300) (pt -2.000 -2.200) (start 180.0) (sweep .0))
+      (pt -2.1 -2.25))))
+   (leg 1 (pt -0.900 -2.550) (padstack 1))
+   (leg A1 (pt -1.058 -2.250) (padstack 0))
+   (leg A2 (pt -1.058 -1.500) (padstack 0))
+   (leg A3 (pt -1.058 -0.750) (padstack 0))
+   (leg A4 (pt -1.058 0.000) (padstack 0))
+   (leg A5 (pt -1.058 0.750) (padstack 0))
+   (leg A6 (pt -1.058 1.500) (padstack 0))
+   (leg A7 (pt -1.058 2.250) (padstack 0))
+   (leg B1 (pt 0.000 -2.668) (padstack 9))
+   (leg B4 (pt 0.000 0.000) (padstack 10))
+   (leg B7 (pt 0.000 2.668) (padstack 11))
+   (leg C1 (pt 1.058 -2.250) (padstack 0))
+   (leg C2 (pt 1.058 -1.500) (padstack 0))
+   (leg C3 (pt 1.058 -0.750) (padstack 0))
+   (leg C4 (pt 1.058 0.000) (padstack 0))
+   (leg C5 (pt 1.058 0.750) (padstack 0))
+   (leg C6 (pt 1.058 1.500) (padstack 0))
+   (leg C7 (pt 1.058 2.250) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.500 0.515 0 0 0.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.100 0.200 0 0 0.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 0.500 0.535 0 0 90.000))
+   )
+   (padstack 10
+    (plated false)
+    (pad (layer TCOP) (rectf 1.200 2.316 0 0 90.000))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 0.500 0.535 0 0 90.000))
+   )
+   (model "VL53L8CXV0GC_1.stp"
+    (euler 90 0 -90)
+    (offset -0.009999999776482582 0.8500000238418579 0.25)
+   )
+  )
+ )
+)

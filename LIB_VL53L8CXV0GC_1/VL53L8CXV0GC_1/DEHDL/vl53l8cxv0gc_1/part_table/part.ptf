@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VL53L8CXV0GC_1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "VL53L8CXV0GC/1" (!) = "", "VL53L8CXV0GC1", "Other", "511-VL53L8CXV0GC/1", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L8CXV0GC-1?qs=T%252BzbugeAwjhc9idkQC%252BF8g%3D%3D", "Low-power high-performance 8x8 multizone Time-of-Flight sensor 940 nm, 6.4x3.0x1.75 mm, -30 to 85C", "https://www.st.com/resource/en/datasheet/vl53l8cx.pdf", "1.8 mm"
+END_PART
+
+END.

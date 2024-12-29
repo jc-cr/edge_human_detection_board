@@ -1,0 +1,17 @@
+.VL53L8CXV0GC_1 :1 ;Low-power high-performance 8x8 multizone Time-of-Flight sensor 940 nm, 6.4x3.0x1.75 mm, -30 to 85C
+VL53L8CXV0GC1
+*STM U
+*NGS
+*PNM 1=1 2=A1 3=A2 4=A3 5=A4 6=A5 7=A6 8=A7 9=B1 10=B4 11=B7 12=C1 13=C2 14=C3 15=C4 16=C5 17=C6 18=C7
+*PLB 1="INT_1" 2="INT_2" 3="XSHUT" 4="IOVDD" 5="MOSI" 6="MCLK" 7="SWD_IO" 8="SWD_CLK" 9="SYNC" 10="GND_1" 11="CORE 1V8" 12="SPI_I2C_N" 13="NCS" 14="GND_2" 15="VDD" 16="MISO" 17="ATEST1" 18="GND_3"
+*MXP 18
+*DFN VL53L8CXV0GC_1
+~!Mouser Part Number (511-VL53L8CXV0GC/1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L8CXV0GC-1?qs=T%252BzbugeAwjhc9idkQC%252BF8g%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (VL53L8CXV0GC/1)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/vl53l8cx.pdf)
+~!Height (1.8mm)
+~!3D_Model (VL53L8CXV0GC_1)
+VL53L8CXV0GC_1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 
