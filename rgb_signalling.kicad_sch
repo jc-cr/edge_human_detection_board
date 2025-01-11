@@ -2633,7 +2633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f37559f-ee35-462d-b7c6-b308d53e4de8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -2683,7 +2683,7 @@
 		(instances
 			(project ""
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2965,7 +2965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ee89421-b5e6-4202-8f28-b6f567b41f67")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 90.17 113.03 0)
 			(effects
 				(font
@@ -3015,7 +3015,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3360,7 +3360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def5d2c9-4fc1-4435-8b82-811b2836a09f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 86.36 138.43 0)
 			(effects
 				(font
@@ -3410,7 +3410,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3619,7 +3619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e782ff11-a072-4134-ac93-b24a5e47e088")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 53.34 125.73 0)
 			(effects
 				(font
@@ -3669,7 +3669,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/381303fc-36c2-4b05-8887-9e7cf2e23d0c"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
