@@ -648,6 +648,10 @@
     [
       "74857e1b-d607-48d9-8b82-96dfc41384b6",
       "TOF Sensor"
+    ],
+    [
+      "f41706b9-d279-439a-98bb-dd830f19cae2",
+      "usbc_fuse"
     ]
   ],
   "text_variables": {}

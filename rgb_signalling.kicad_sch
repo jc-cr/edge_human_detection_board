@@ -1618,6 +1618,28 @@
 		)
 		(uuid "16b0c17f-f8ee-4265-bdd9-632f3c09e10c")
 	)
+	(text "I = 12 ma"
+		(exclude_from_sim no)
+		(at 77.978 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 22 252 1)
+			)
+		)
+		(uuid "62722272-6ff6-424a-a710-962fbe2f37d1")
+	)
+	(text "I = 12 ma"
+		(exclude_from_sim no)
+		(at 43.434 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 22 252 1)
+			)
+		)
+		(uuid "6947b828-a1e9-4f11-b740-590ea6ba1798")
+	)
 	(text "TEST POINTS"
 		(exclude_from_sim no)
 		(at 189.992 37.338 0)
@@ -1627,6 +1649,17 @@
 			)
 		)
 		(uuid "70d8dbb2-af62-4efb-80b4-ae4cf7d1f73a")
+	)
+	(text "I = 12 ma"
+		(exclude_from_sim no)
+		(at 109.474 135.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 22 252 1)
+			)
+		)
+		(uuid "819cab27-b6e2-4c89-8f61-2dc7979a8438")
 	)
 	(label "SIG_IN_RGB2"
 		(at 204.47 85.09 180)
