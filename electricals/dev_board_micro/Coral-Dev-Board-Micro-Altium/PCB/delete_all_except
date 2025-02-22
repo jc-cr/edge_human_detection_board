@@ -1,0 +1,63 @@
+import pcbnew
+
+# Get the current board
+board = pcbnew.GetBoard()
+
+# Print available layers and find layer IDs
+print("Available layers:")
+layers_to_keep = ["F.Mask", "Edge.Cuts"]  
+layers_to_preserve = []
+
+# Debug print all layers first
+for i in range(pcbnew.PCB_LAYER_ID_COUNT):
+    try:
+        name = board.GetLayerName(i)
+        print(f"Layer {i}: {name}")
+        if name in layers_to_keep:
+            layers_to_preserve.append(i)
+            print(f"Found layer to preserve: {name}")
+    except:
+        continue
+
+deleted_count = 0
+
+# Process each layer that's not preserved
+for i in range(pcbnew.PCB_LAYER_ID_COUNT):
+    if i not in layers_to_preserve:
+        try:
+            layer_name = board.GetLayerName(i)
+            print(f"Processing layer: {layer_name}")
+            
+            # Delete drawings on this layer
+            for item in list(board.GetDrawings()):  # Use list() to avoid modification during iteration
+                if item.GetLayer() == i:
+                    board.Remove(item)
+                    deleted_count += 1
+                    
+            # Delete tracks on this layer        
+            for item in list(board.GetTracks()):
+                if item.GetLayer() == i:
+                    board.Remove(item)
+                    deleted_count += 1
+                    
+            # Delete zones on this layer
+            for item in list(board.GetZones()):
+                if item.GetLayer() == i:
+                    board.Remove(item)
+                    deleted_count += 1
+                    
+            # Only modify footprint if it's specifically on this layer
+            for item in list(board.GetFootprints()):
+                if item.GetLayer() == i:
+                    board.Remove(item) 
+                    deleted_count += 1
+                    
+        except Exception as e:
+            print(f"Error processing layer {i}: {str(e)}")
+            continue
+
+print(f"\nPreserved layers: {layers_to_keep}")
+print(f"Deleted {deleted_count} items")
+
+# Save changes
+board.Save()

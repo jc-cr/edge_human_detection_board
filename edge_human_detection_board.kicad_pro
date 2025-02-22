@@ -514,8 +514,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/Coral Micro Breakouts/+1.8VDC_TOF": "+1.8VDC_SPARE",
-      "/TOF Sensor/CORE_1V8": "+1.8VDC_SPARE"
+      "/Coral Micro Breakouts/+1.8VDC_TOF": "+1.8VDC_SPARE"
     },
     "netclass_patterns": []
   },
@@ -585,11 +584,53 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -644,6 +685,10 @@
     [
       "381303fc-36c2-4b05-8887-9e7cf2e23d0c",
       "RGB Signalling"
+    ],
+    [
+      "74857e1b-d607-48d9-8b82-96dfc41384b6",
+      "TOF Sensor"
     ]
   ],
   "text_variables": {}

@@ -1615,16 +1615,6 @@
 		)
 		(uuid 5b3f112a-a12e-4916-9ab6-37ae88949af9)
 	)
-	(text "0 Ohm R added for current testing."
-		(exclude_from_sim no)
-		(at 138.176 52.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "02967fff-b7e6-4f34-8ce3-30e29d0181d3")
-	)
 	(text "5V:\nR = (5V-1.8)/(2mA)\n  = 1.5kOhm\n"
 		(exclude_from_sim no)
 		(at 62.738 53.086 0)
@@ -1982,7 +1972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55edeec8-0c50-4b88-a273-697e240b9c92")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 77.47 40.6399 0)
 			(effects
 				(font
@@ -2036,7 +2026,7 @@
 		(instances
 			(project "edge_human_detection_board"
 				(path "/f7edb1cc-a42a-4cc0-9a6f-d9bd2b944353/72abfcf8-e097-478e-98cf-ce55e9cba7c4"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
