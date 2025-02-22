@@ -1,0 +1,465 @@
+(footprint "VL53L8CXV0GC1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "OPTICAL LGA 6.40X3.03 16 PINS_1")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "aefe6e6f-1691-47ea-a4a8-e8839b256e25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "90fe8a43-b460-4407-9c80-c0617ddf4457")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "00_parts:VL53L8CXV0GC1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a3fcef0-5a69-408b-80b1-5b2ecb8dddd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/vl53l8cx.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ea5e175-38d1-49a6-ba4c-11a746045763")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Low-power high-performance 8x8 multizone Time-of-Flight sensor 940 nm, 6.4x3.0x1.75 mm, -30 to 85C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43234b4f-dba9-4e21-ba99-eab1ec5aa2c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7fcf577-b4d0-4520-86fc-c1be77871075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "511-VL53L8CXV0GC/1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98712b58-c285-4efd-a5e2-aa81d74189dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L8CXV0GC-1?qs=T%252BzbugeAwjhc9idkQC%252BF8g%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f875bee-cc54-4eff-9246-e126d62a6aeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "STMicroelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab2912b3-cb37-4724-bf7b-a5c0b5ed10ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "VL53L8CXV0GC/1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a7370ba-b5d0-49f7-9eb3-7af6ccc45d0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 2.25)
+		(end -2.1 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b213ba9-5c22-4c44-b5b1-b9fe1a1dcd19")
+	)
+	(fp_line
+		(start -2 2.25)
+		(end -2 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e4b41ff-9267-4be4-9e7f-eb8eba54bca8")
+	)
+	(fp_line
+		(start -1.515 -3.2)
+		(end -0.6 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18ade31a-2fe7-4917-bae2-38ca610dc709")
+	)
+	(fp_line
+		(start -1.515 -2.8)
+		(end -1.515 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fde36ff-e7bd-4530-88c9-a61169be0ac7")
+	)
+	(fp_line
+		(start -1.515 2.8)
+		(end -1.515 3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3f14b13-1e2e-432f-94c2-a23da0db645c")
+	)
+	(fp_line
+		(start -1.515 3.2)
+		(end -0.6 3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cf964a8-a939-4cea-8e84-59b247fb90c5")
+	)
+	(fp_line
+		(start 0.6 -3.2)
+		(end 1.515 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1830fe5-9f00-47e4-b91b-5a327633e6c4")
+	)
+	(fp_line
+		(start 1.515 -3.2)
+		(end 1.515 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8391852-3111-41f6-86fe-7e82a7a23118")
+	)
+	(fp_line
+		(start 1.515 2.8)
+		(end 1.515 3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d76ed7b0-1cbf-4c65-8ec3-d39028e3ac16")
+	)
+	(fp_line
+		(start 1.515 3.2)
+		(end 0.6 3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f781ca7a-e351-4899-b498-124561da1075")
+	)
+	(fp_arc
+		(start -2.1 2.25)
+		(mid -2.05 2.2)
+		(end -2 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a04a184-5c06-457b-bbad-7820cc5ec1dc")
+	)
+	(fp_arc
+		(start -2 2.25)
+		(mid -2.05 2.3)
+		(end -2.1 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d6d80c5-b8e0-42dd-898c-a86d2d6c1256")
+	)
+	(fp_line
+		(start -2.515 -4.2)
+		(end 2.515 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf458ece-0cff-407e-9fae-2d278668cce9")
+	)
+	(fp_line
+		(start -2.515 4.2)
+		(end -2.515 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50b9686e-629e-456b-927e-933b616720f4")
+	)
+	(fp_line
+		(start 2.515 -4.2)
+		(end 2.515 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36b62974-37a4-46e6-8ab9-9cd5b21e7653")
+	)
+	(fp_line
+		(start 2.515 4.2)
+		(end -2.515 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9202f4fb-96ad-4c4a-a001-5e6f47fc1bb3")
+	)
+	(fp_line
+		(start -1.515 -3.2)
+		(end -1.515 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d395e14b-55de-4dae-8a56-51380aa02636")
+	)
+	(fp_line
+		(start -1.515 3.2)
+		(end 1.515 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07a24c86-115b-4580-bc7b-56e7135cfe04")
+	)
+	(fp_line
+		(start 1.515 -3.2)
+		(end -1.515 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c8909df-7310-4e8b-8864-9da23ebdff1b")
+	)
+	(fp_line
+		(start 1.515 3.2)
+		(end 1.515 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08e7c3ec-f852-4866-bb67-f7b1c00957b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "63e4af32-0409-4044-9534-daaca895a3c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 2.55 90)
+		(size 0.1 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fc496450-509a-4295-8fa7-b68152af4a6e")
+	)
+	(pad "A1" smd rect
+		(at -1.058 2.25 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f6ff1939-032a-48d8-8f3a-a17513f0d390")
+	)
+	(pad "A2" smd rect
+		(at -1.058 1.5 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ec1e39a-b466-4df0-9a71-97e2cc8cde30")
+	)
+	(pad "A3" smd rect
+		(at -1.058 0.75 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a793d6fa-8ca6-424a-95f1-8b1da418f7ab")
+	)
+	(pad "A4" smd rect
+		(at -1.058 0 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c647468-e744-4d30-8a13-7fcfb866f0cc")
+	)
+	(pad "A5" smd rect
+		(at -1.058 -0.75 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "86eef8be-f29d-4e1a-966d-07bc6f84fd19")
+	)
+	(pad "A6" smd rect
+		(at -1.058 -1.5 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d397e64e-ae74-4412-8433-fef7bb9a5bbe")
+	)
+	(pad "A7" smd rect
+		(at -1.058 -2.25 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4198648c-0e96-4b6b-ab90-ca6cf5044c4e")
+	)
+	(pad "B1" smd rect
+		(at 0 2.668)
+		(size 0.5 0.535)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a37f1a2e-31bb-466e-a4d6-e18e0b96c7e6")
+	)
+	(pad "B4" smd rect
+		(at 0 0)
+		(size 1.2 2.316)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "545eeb0b-8097-4c28-abd7-e46b4ca73ed2")
+	)
+	(pad "B7" smd rect
+		(at 0 -2.668)
+		(size 0.5 0.535)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dee40cc2-9952-4281-851a-e373a6128a1f")
+	)
+	(pad "C1" smd rect
+		(at 1.058 2.25 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6f7e3136-82d6-43d1-be7d-536eab30f0af")
+	)
+	(pad "C2" smd rect
+		(at 1.058 1.5 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2ef925e8-54ec-42cd-a4e0-9da6d85467e0")
+	)
+	(pad "C3" smd rect
+		(at 1.058 0.75 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "49bec014-62d3-43f3-a32c-07ae20e1085a")
+	)
+	(pad "C4" smd rect
+		(at 1.058 0 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a4203f2-fd4b-4389-88db-09f4728b8449")
+	)
+	(pad "C5" smd rect
+		(at 1.058 -0.75 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "535b4706-53b7-40da-87fa-51a421655fff")
+	)
+	(pad "C6" smd rect
+		(at 1.058 -1.5 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a11a27bd-01b6-4806-82c6-9a174a98395b")
+	)
+	(pad "C7" smd rect
+		(at 1.058 -2.25 90)
+		(size 0.5 0.515)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "18ef0fc5-cc84-4562-81ff-a80411a30874")
+	)
+	(model "VL53L8CXV0GC_1.stp"
+		(offset
+			(xyz -0.009999999626 0.8500000111 0.2499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
